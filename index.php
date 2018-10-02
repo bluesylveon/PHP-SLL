@@ -1,1 +1,1 @@
-<?php echo "Hello World from PHP!"; ?>
+<?php echo "This should now print this! #webception"; ?>
