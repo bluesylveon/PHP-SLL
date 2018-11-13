@@ -19,7 +19,7 @@ header, footer{
 
 footer{
 	line-height: 100px;
-	clear: both
+	clear: both;
 }
 
 header h2{
@@ -37,7 +37,7 @@ nav{
 nav a{
 	display: block;
 	height: 50px;
-	margin: 25px 5px 8px;
+	margin: 25px 5px;
 	padding: 0 5px 
 	float: left;
 	text-align: center;
