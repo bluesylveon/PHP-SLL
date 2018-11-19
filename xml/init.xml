@@ -1,3 +1,4 @@
+<?xml-stylesheet type="text/xsl" href="w3chtml.xsl"?>
 <tests>
    <Datacenters>             
         <test_name>Create NFS Data Center</test_name>
