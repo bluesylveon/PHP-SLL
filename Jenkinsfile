@@ -18,7 +18,7 @@ pipeline {
 					def files = findFiles(glob: '**/*.css')
 					for (int i = 0; i<files.length; i++) {
 						sh "curl --form \"file=@${files[i].path};type=text/css\" -F output=xml --silent --show-error http://jigsaw.w3.org/css-validator/validator -o ${files[i].name}.json"
-						sh "cat ${files[i].name}.json"
+						sh "cat ${files[i].name}.xml"
 					}
 				}
 			}				
