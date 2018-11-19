@@ -6,7 +6,7 @@ pipeline {
 				script{
 					def files = findFiles(glob: '**/*.html')
 					for (int i = 0; i<files.length; i++) {
-						sh "curl -o ${files[i].name}.xml -H \"Content-Type: text/html; charset=utf-8\" --data-binary @${files[i].path} https://html5.validator.nu/?out=xml"
+						sh "curl -o ${files[i].name}.xml -H \"Content-Type: text/html; charset=utf-8\" --data-binary @${files[i].path} https://html5.validator.nu/?out=text"
 						sh "cat ${files[i].name}.xml"
 					}
 				}
