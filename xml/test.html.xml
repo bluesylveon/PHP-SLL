@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/xsl" href="w3chtml - Copie.xsl"?>
 <messages xmlns="http://n.validator.nu/messages/">
-<error last-line="6" last-column="7" first-column="1">
-<message>Element <a xmlns="http://www.w3.org/1999/xhtml" href="https://html.spe$
-<extract>itle&gt; --&gt;
-<m>&lt;/head&gt;</m>
-&lt;body</extract><elaboration><dl xmlns="http://www.w3.org/1999/xhtml"><dt>Con$
-</error>
-<error last-line="14" last-column="6" first-column="1">
-<message>Stray end tag <code xmlns="http://www.w3.org/1999/xhtml">div</code>.</$
-<extract>   &lt;/div&gt;
-<m>&lt;/div&gt;</m>
-&lt;/bod</extract>
-</error>
-
+	<error last-line="6" last-column="7" first-column="1">
+		<message>Element <a xmlns="http://www.w3.org/1999/xhtml" href="https://html.spec.whatwg.org/multipage/#the-head-element"><code>head</code></a> is ment <code xmlns="http://www.w3.org/1999/xhtml">title</code>.</message>
+		<extract>itle&gt; --&gt;
+			<m>&lt;/head&gt;</m>
+		&lt;body</extract><elaboration><dl xmlns="http://www.w3.org/1999/xhtml"><dt>Con</dt></dl></elaboration>
+	</error>
+	<error last-line="14" last-column="6" first-column="1">
+		<message>Stray end tag <code xmlns="http://www.w3.org/1999/xhtml">div</code>.</message>
+		<extract>   &lt;/div&gt;
+			<m>&lt;/div&gt;</m>
+		&lt;/bod</extract>
+	</error>
 </messages>
