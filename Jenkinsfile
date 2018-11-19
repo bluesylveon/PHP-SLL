@@ -24,4 +24,9 @@ pipeline {
 			}				
 		}
     }
+	post {
+        always {
+            archiveArtifacts artifacts: '**/*.xml', fingerprint: true
+        }
+    }
 }

@@ -3,13 +3,10 @@
     <xsl:output indent="yes"/>
 
     <xsl:template match="messages">
-            <xsl:for-each-group select="*" group-by="local-name()">
+            <xsl:for-each select="error">
                 <testsuite name="{current-grouping-key()}">
-                    <xsl:for-each   select="current-group()">
-                        <testcase classname="{current-grouping-key()}"/>
-                    </xsl:for-each>
                 </testsuite>
-            </xsl:for-each-group>  
+            </xsl:for-each>  
     </xsl:template>
 
 </xsl:stylesheet>
